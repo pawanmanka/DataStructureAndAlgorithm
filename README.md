@@ -1,3 +1,50 @@
+**🧠 What is Complexity?**
+
+✅ Time Complexity
+
+- Measures how long an algorithm takes to run as a function of input size n.
+- Focuses on the number of operations performed.
+
+✅ Space Complexity
+
+- Measures the amount of memory used by an algorithm.
+- Includes memory for variables, data structures, function call stacks, etc.
+
+
+📚 Types of Complexity
+
+**🔹 1. Time Complexity**
+
+| Notation       | Meaning                                  | Example                                  |
+| -------------- | ---------------------------------------- | ---------------------------------------- |
+| **O(1)**       | Constant time – does not depend on input | Accessing array by index                 |
+| **O(log n)**   | Logarithmic – input divided each time    | Binary Search                            |
+| **O(n)**       | Linear – grows with input size           | Traversing an array                      |
+| **O(n log n)** | Linearithmic – log operation per element | Merge Sort, Heap Sort                    |
+| **O(n²)**      | Quadratic – nested loops                 | Bubble Sort, Insertion Sort              |
+| **O(2ⁿ)**      | Exponential – doubles with input         | Recursive Fibonacci                      |
+| **O(n!)**      | Factorial – very slow                    | Solving Traveling Salesman (brute force) |
+
+##
+
+**🔹 2. Space Complexity**
+
+| Algorithm      | Space Complexity |
+| -------------- | ---------------- |
+| Iterative Loop | O(1)             |
+| Merge Sort     | O(n)             |
+| Recursive DFS  | O(h)             |
+
+
+
+##
+
+**📈 Common Complexity Notations**
+
+1. Big O (O) – Worst-case scenario (most commonly used)
+2. Omega (Ω) – Best-case scenario
+3. Theta (Θ) – Average-case or tight bound
+
 
 **📦 1. Array**
 | Operation         | Time Complexity  | Space Complexity |
