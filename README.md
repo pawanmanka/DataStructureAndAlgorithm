@@ -36,8 +36,12 @@
 | Recursive DFS  | O(h)             |
 
 
+**🔹 Visual Representation**
+Growth rate as n increases:
+O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(2ⁿ) < O(n!)
 
 ##
+
 
 **📈 Common Complexity Notations**
 
